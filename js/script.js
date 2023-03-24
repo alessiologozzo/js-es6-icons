@@ -122,6 +122,8 @@ filterAll();
 
 function changeFilter(){
     
+    main.innerHTML = "";
+    
     switch(select.value){
 
         case "all":
@@ -144,15 +146,11 @@ function changeFilter(){
 
 function filterAll(){
 
-    main.innerHTML = "";
-
     for(let i = 0; i < icons.length; i++)
         createCard(icons[i]);
 }
 
 function filterAnimals(){
-
-    main.innerHTML = "";
     
     for(let i = 0; i < icons.length; i++){
         if(icons[i].type == "animal")
@@ -161,8 +159,6 @@ function filterAnimals(){
 }
 
 function filterVegetables(){
-
-    main.innerHTML = "";
     
     for(let i = 0; i < icons.length; i++){
         if(icons[i].type == "vegetable")
@@ -171,8 +167,6 @@ function filterVegetables(){
 }
 
 function filterUsers(){
-
-    main.innerHTML = "";
     
     for(let i = 0; i < icons.length; i++){
         if(icons[i].type == "user")
