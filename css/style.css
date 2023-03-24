@@ -1,0 +1,65 @@
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Alkatra', cursive;
+}
+
+header{
+    color: #29b1dd;
+    padding: 0.5rem 1rem 0;
+}
+
+nav{
+    background-color: #29b1dd;
+    color: white;
+    padding: 1rem 0;
+}
+
+select{
+    width: 100px;
+}
+
+.wrapper{
+    background-color: #dddddd;
+}
+
+.al-card{
+    max-width: 270px;
+    margin: auto;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 1rem 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px  1px  1px #979797;
+    text-transform: uppercase;
+}
+
+.al-animal, .al-vegetable, .al-user{
+    font-size: 2rem;
+}
+
+.al-animal{
+    color: #0000ff;
+}
+
+.al-vegetable{
+    color: #ffa500;
+}
+
+.al-user{
+    color: #800080;
+}
+
+@media screen and (min-width: 1200px){
+
+    .al-col-xl{
+        width: calc(100% / 5);
+    }
+}
