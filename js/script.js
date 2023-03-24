@@ -152,26 +152,23 @@ function filterAll(){
 
 function filterAnimals(){
     
-    for(let i = 0; i < icons.length; i++){
+    for(let i = 0; i < icons.length; i++)
         if(icons[i].type == "animal")
             createCard(icons[i]);
-    }
 }
 
 function filterVegetables(){
     
-    for(let i = 0; i < icons.length; i++){
+    for(let i = 0; i < icons.length; i++)
         if(icons[i].type == "vegetable")
             createCard(icons[i]);
-    }
 }
 
 function filterUsers(){
     
-    for(let i = 0; i < icons.length; i++){
+    for(let i = 0; i < icons.length; i++)
         if(icons[i].type == "user")
             createCard(icons[i]);
-    }
 }
 
 function createCard(icon){
